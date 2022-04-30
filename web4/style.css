@@ -1,0 +1,101 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background:url(1.jpg);
+    font-size: 20px;
+    background-size: 100%;
+    padding: 12px 12px;
+    height: 100%;
+    color: white;
+   
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    border: solid rgba(139, 88, 109, 0.397);
+    box-shadow: -1px 2px 40px rgb(8, 0, 6);
+    padding: 8px 12px;
+    background-image: linear-gradient(95deg, rgba(77, 204, 238, 0.849), rgba(244, 60, 213, 0.781) 40%, rgba(85, 241, 181, 0.795));
+
+    padding: 20px;
+    margin-bottom: 20px;
+
+    
+    box-shadow: 0px 0px 15px 0px #514542;
+    border-radius: 15px;
+}
+h2 {
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+input, textarea, select {
+    font-size: 14px;
+    margin-bottom: 13px;
+    margin-top: 4px;
+    padding: 6px;
+    background-color: transparent;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    border: 1px solid rgba(256,256,256,.3);
+    border-radius: 3px;
+}
+textarea{
+    resize: none;
+}
+.group {
+    width: 100%;
+}
+#send {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+
+    transform: scale(1);
+}
+#send:hover, #send:active {
+    background-color: rgb(255, 254, 254);
+    color: rgb(15, 14, 14);
+}
+#send:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+.radio {
+    margin-left: 10px;
+}
+
+/* Сообщения об ошибках и поля с ошибками выводим с красным бордюром. */
+.error {
+    border: 1px solid rgb(255, 0, 0);
+}
+.messages {
+    margin-bottom: 10px;
+}
+
+/* login */
+#login:hover, #send:active {
+    background-color: white;
+    color: black;
+}
+#login:active {
+    transform: scale(.97);
+    transition: transform .2s;
+}
+
+.enter-exit {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    transition: transform .2s;
+    padding: 0.5rem 2.5rem;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+.enter-exit:hover {
+    background-color: cornflowerblue;
+}
