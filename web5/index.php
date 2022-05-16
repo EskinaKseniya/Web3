@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     // загрузить данные пользователя из БД
     // и заполнить переменную $values,
     // предварительно санитизовав.
-    $db = new PDO('mysql:host=localhost;dbname=u41033', 'u41033', '2342412', array(PDO::ATTR_PERSISTENT => true));
+    $db = new PDO('mysql:host=localhost;dbname=u47537', 'u47537', '3841137', array(PDO::ATTR_PERSISTENT => true));
     
     $stmt = $db->prepare("SELECT * FROM human WHERE id = ?");
     $stmt -> execute([$_SESSION['uid']]);
